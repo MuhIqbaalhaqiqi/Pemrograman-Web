@@ -1,0 +1,15 @@
+Fontawesome
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+Link Icon Layanan di Fontawesome
+ <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+
+ <span class="lingkaran"><i class="fas fa-palette fa-5x"></i></span>
+
+  <span class="lingkaran"
+              ><i class="fas fa-network-wired fa-5x"></i
+            ></span>
