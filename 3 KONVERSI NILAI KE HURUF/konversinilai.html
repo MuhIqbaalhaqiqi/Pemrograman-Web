@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IqbalHqq.KonversiNilai</title>
+    <script language="JavaScript">
+        document.write("Dimodifikasi Terakhir Pada" + document.lastModified)
+        document.write("  By Muhammad Iqbal Haqiqi_20050974075_PTI 2020 A")
+
+        function konversi() {
+            var x = document.kirim.angka.value
+            if (x <= 49)
+                document.kirim.huruf.value = "E"
+            else if (50 <= x && 59 >= x)
+                document.kirim.huruf.value = "D"
+            else if (60 <= x && 69 >= x)
+                document.kirim.huruf.value = "C"
+            else if (70 <= x && 79 >= x)
+                document.kirim.huruf.value = "B"
+            else if (80 <= x && 100 >= x)
+                document.kirim.huruf.value = "A"
+            else
+                window.alert("Nilai Yang Anda Masukkan Tidak Valid!")
+        }
+    </script>
+    <script type="text/javascript">
+        function warna (pilih) {
+            if (pilih == 1) document.body.style.backgroundColor = "white";
+            else if (pilih == 2) document.body.style.backgroundColor = "yellow";
+            else if (pilih == 3) document.body.style.backgroundColor = "green";
+            else if (pilih == 4) document.body.style.backgroundColor = "blue";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>KONVERSI NILAI (Angka ke Huruf)</h1>
+    <form action="" name="kirim">
+        Masukan Nilai :
+        <input type="text" name="angka" id="">
+        <br> <br>
+        Hasil Konversi Huruf :
+        <input type="text" name="huruf" id="">
+        <br> <br>
+        <input type="button" name="button1" value="Konversi" onclick="konversi()">
+    </form>
+</body>
+<button onclick="warna(1)">Putih</button>
+<button onclick="warna(2)">Kuning</button>
+<button onclick="warna(3)">Hijau</button>
+<button onclick="warna(4)">Biru</button>
+
+</html>
